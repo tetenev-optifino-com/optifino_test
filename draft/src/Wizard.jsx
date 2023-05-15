@@ -32,7 +32,7 @@ export const Wizard = () => {
         <p>Let's get acquainted</p>
       </div>
       <form action="">
-        {stepToFormBody[step]({value: `Step number ${step}`}) ?? 'value'}
+        {stepToFormBody[step]({value: `Step number ${step}`})}
       </form>
       <footer style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between', outline: '1px solid black', marginTop: 'auto'}}>
         <p>Need help?</p>
